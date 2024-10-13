@@ -9,20 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,163</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">26,163</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.EditEmployee</td><td><a href="#m0">SearchForEmployee</a></td><td rowspan="1">1728802532651</td><td rowspan="1">2646</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.SearchUserTest</td><td><a href="#m1">ClickonPim</a></td><td rowspan="1">1728802529889</td><td rowspan="1">2290</td></tr><tr class="passedeven"><td><a href="#m2">RegisteredUserCanLogin</a></td><td rowspan="1">1728802528365</td><td rowspan="1">1436</td></tr><tr class="passedeven"><td><a href="#m3">SearchForEmployee</a></td><td rowspan="1">1728802532184</td><td rowspan="1">461</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.EditEmployee</td><td><a href="#m0">SearchForEmployee</a></td><td rowspan="1">1728810930241</td><td rowspan="1">12057</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.SearchUserTest</td><td><a href="#m1">ClickonPim</a></td><td rowspan="1">1728810922656</td><td rowspan="1">6961</td></tr><tr class="passedeven"><td><a href="#m2">RegisteredUserCanLogin</a></td><td rowspan="1">1728810916426</td><td rowspan="1">6052</td></tr><tr class="passedeven"><td><a href="#m3">SearchForEmployee</a></td><td rowspan="1">1728810929623</td><td rowspan="1">608</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">tests.EditEmployee#SearchForEmployee</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector
-from javascript error: {&quot;status&quot;:32,&quot;value&quot;:&quot;An invalid or illegal selector was specified&quot;}
+<h2>Test</h2><h3 id="m0">tests.EditEmployee#SearchForEmployee</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//button[contains(@class,&apos;oxd-icon-button oxd-table-cell-action-space&apos;)])[1]&quot;}
   (Session info: chrome=129.0.6668.90)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e9b30c492783052e3e42d340ec669ac, findElement {using=css selector, value=/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MOSTAF~1.SAA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53491}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53491/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e9b30c492783052e3e42d340ec669ac
+Command: [aac48f60e423e26e958cdad42ba9ece7, findElement {value=(//button[contains(@class,&apos;oxd-icon-button oxd-table-cell-action-space&apos;)])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MOSTAF~1.SAA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61144}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61144/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aac48f60e423e26e958cdad42ba9ece7
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -34,7 +33,7 @@ Session ID: 5e9b30c492783052e3e42d340ec669ac
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at pages.EditUserPage.Edituser(EditUserPage.java:34)
+	at pages.EditUserPage.Edituser(EditUserPage.java:27)
 	at tests.EditEmployee.SearchForEmployee(EditEmployee.java:19)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

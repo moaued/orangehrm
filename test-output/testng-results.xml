@@ -2,36 +2,34 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-13T09:55:28 EEST" name="Suite" finished-at="2024-10-13T09:55:35 EEST" duration-ms="7163">
+  <suite started-at="2024-10-13T12:15:16 EEST" name="Suite" finished-at="2024-10-13T12:15:42 EEST" duration-ms="26163">
     <groups>
     </groups>
-    <test started-at="2024-10-13T09:55:28 EEST" name="Test" finished-at="2024-10-13T09:55:35 EEST" duration-ms="7163">
+    <test started-at="2024-10-13T12:15:16 EEST" name="Test" finished-at="2024-10-13T12:15:42 EEST" duration-ms="26163">
       <class name="tests.EditEmployee">
-        <test-method signature="SearchForEmployee()[pri:0, instance:tests.EditEmployee@18518ccf]" started-at="2024-10-13T09:55:32 EEST" name="SearchForEmployee" finished-at="2024-10-13T09:55:35 EEST" duration-ms="2646" status="FAIL">
-          <exception class="org.openqa.selenium.InvalidSelectorException">
+        <test-method signature="SearchForEmployee()[pri:0, instance:tests.EditEmployee@18518ccf]" started-at="2024-10-13T12:15:30 EEST" name="SearchForEmployee" finished-at="2024-10-13T12:15:42 EEST" duration-ms="12057" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[invalid selector
-from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//button[contains(@class,'oxd-icon-button oxd-table-cell-action-space')])[1]"}
   (Session info: chrome=129.0.6668.90)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e9b30c492783052e3e42d340ec669ac, findElement {using=css selector, value=/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MOSTAF~1.SAA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53491}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53491/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e9b30c492783052e3e42d340ec669ac]]>
+Command: [aac48f60e423e26e958cdad42ba9ece7, findElement {value=(//button[contains(@class,'oxd-icon-button oxd-table-cell-action-space')])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MOSTAF~1.SAA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61144}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61144/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aac48f60e423e26e958cdad42ba9ece7]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector
-from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[contains(@class,'oxd-icon-button oxd-table-cell-action-space')])[1]"}
   (Session info: chrome=129.0.6668.90)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e9b30c492783052e3e42d340ec669ac, findElement {using=css selector, value=/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MOSTAF~1.SAA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53491}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53491/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e9b30c492783052e3e42d340ec669ac
+Command: [aac48f60e423e26e958cdad42ba9ece7, findElement {value=(//button[contains(@class,'oxd-icon-button oxd-table-cell-action-space')])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MOSTAF~1.SAA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61144}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61144/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aac48f60e423e26e958cdad42ba9ece7
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -48,7 +46,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at pages.EditUserPage.Edituser(EditUserPage.java:34)
+at pages.EditUserPage.Edituser(EditUserPage.java:27)
 at tests.EditEmployee.SearchForEmployee(EditEmployee.java:19)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -80,11 +78,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchForEmployee -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.EditEmployee@18518ccf]" started-at="2024-10-13T09:55:35 EEST" name="screenshotOnFailure" finished-at="2024-10-13T09:55:35 EEST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.EditEmployee@18518ccf]" started-at="2024-10-13T12:15:42 EEST" name="screenshotOnFailure" finished-at="2024-10-13T12:15:42 EEST" duration-ms="201" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,15 +95,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- screenshotOnFailure -->
       </class> <!-- tests.EditEmployee -->
       <class name="tests.SearchUserTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T09:55:22 EEST" name="startDriver" finished-at="2024-10-13T09:55:28 EEST" duration-ms="6168" status="PASS">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T12:14:59 EEST" name="startDriver" finished-at="2024-10-13T12:15:16 EEST" duration-ms="17260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="RegisteredUserCanLogin()[pri:2, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T09:55:28 EEST" name="RegisteredUserCanLogin" finished-at="2024-10-13T09:55:29 EEST" duration-ms="1436" status="PASS">
+        <test-method signature="RegisteredUserCanLogin()[pri:2, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T12:15:16 EEST" name="RegisteredUserCanLogin" finished-at="2024-10-13T12:15:22 EEST" duration-ms="6052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisteredUserCanLogin -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T09:55:29 EEST" name="screenshotOnFailure" finished-at="2024-10-13T09:55:29 EEST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T12:15:22 EEST" name="screenshotOnFailure" finished-at="2024-10-13T12:15:22 EEST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,11 +114,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method signature="ClickonPim()[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T09:55:29 EEST" name="ClickonPim" finished-at="2024-10-13T09:55:32 EEST" depends-on-methods="tests.SearchUserTest.RegisteredUserCanLogin" duration-ms="2290" status="PASS">
+        <test-method signature="ClickonPim()[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T12:15:22 EEST" name="ClickonPim" finished-at="2024-10-13T12:15:29 EEST" depends-on-methods="tests.SearchUserTest.RegisteredUserCanLogin" duration-ms="6961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickonPim -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T09:55:32 EEST" name="screenshotOnFailure" finished-at="2024-10-13T09:55:32 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T12:15:29 EEST" name="screenshotOnFailure" finished-at="2024-10-13T12:15:29 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,11 +129,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method signature="SearchForEmployee()[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T09:55:32 EEST" name="SearchForEmployee" finished-at="2024-10-13T09:55:32 EEST" depends-on-methods="tests.SearchUserTest.ClickonPim" duration-ms="461" status="PASS">
+        <test-method signature="SearchForEmployee()[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T12:15:29 EEST" name="SearchForEmployee" finished-at="2024-10-13T12:15:30 EEST" depends-on-methods="tests.SearchUserTest.ClickonPim" duration-ms="608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchForEmployee -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T09:55:32 EEST" name="screenshotOnFailure" finished-at="2024-10-13T09:55:32 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchUserTest@9bd0fa6]" started-at="2024-10-13T12:15:30 EEST" name="screenshotOnFailure" finished-at="2024-10-13T12:15:30 EEST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>

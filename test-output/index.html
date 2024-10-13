@@ -153,16 +153,15 @@
                   <a name="SearchForEmployee">
                   </a> <!-- SearchForEmployee -->
                   <span class="method-name">SearchForEmployee</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector
-from javascript error: {&quot;status&quot;:32,&quot;value&quot;:&quot;An invalid or illegal selector was specified&quot;}
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//button[contains(@class,&apos;oxd-icon-button oxd-table-cell-action-space&apos;)])[1]&quot;}
   (Session info: chrome=129.0.6668.90)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e9b30c492783052e3e42d340ec669ac, findElement {using=css selector, value=/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MOSTAF~1.SAA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53491}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53491/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e9b30c492783052e3e42d340ec669ac
+Command: [aac48f60e423e26e958cdad42ba9ece7, findElement {value=(//button[contains(@class,&apos;oxd-icon-button oxd-table-cell-action-space&apos;)])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MOSTAF~1.SAA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61144}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61144/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aac48f60e423e26e958cdad42ba9ece7
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -174,7 +173,7 @@ Session ID: 5e9b30c492783052e3e42d340ec669ac
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at pages.EditUserPage.Edituser(EditUserPage.java:34)
+	at pages.EditUserPage.Edituser(EditUserPage.java:27)
 	at tests.EditEmployee.SearchForEmployee(EditEmployee.java:19)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
@@ -272,24 +271,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SearchForEmployee')
 data.setCell(0, 2, 'tests.EditEmployee')
-data.setCell(0, 3, 2646);
+data.setCell(0, 3, 12057);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'ClickonPim')
 data.setCell(1, 2, 'tests.SearchUserTest')
-data.setCell(1, 3, 2290);
+data.setCell(1, 3, 6961);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'RegisteredUserCanLogin')
 data.setCell(2, 2, 'tests.SearchUserTest')
-data.setCell(2, 3, 1436);
+data.setCell(2, 3, 6052);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'SearchForEmployee')
 data.setCell(3, 2, 'tests.SearchUserTest')
-data.setCell(3, 3, 461);
+data.setCell(3, 3, 608);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -329,27 +328,27 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">RegisteredUserCanLogin</span>
-                <span class="method-start">6203 ms</span>
+                <span class="method-start">17333 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotOnFailure([TestResult name=RegisteredUserCanLogin status=SUCCESS method=SearchUserTest.RegisteredUserCanLogin(...)</span>
-                <span class="method-start">7709 ms</span>
+                <span class="method-start">23538 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">ClickonPim</span>
-                <span class="method-start">7727 ms</span>
+                <span class="method-start">23563 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotOnFailure([TestResult name=ClickonPim status=SUCCESS method=SearchUserTest.ClickonPim()[pri:0, instance:tests....)</span>
-                <span class="method-start">10020 ms</span>
+                <span class="method-start">30527 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">SearchForEmployee</span>
-                <span class="method-start">10022 ms</span>
+                <span class="method-start">30530 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotOnFailure([TestResult name=SearchForEmployee status=SUCCESS method=SearchUserTest.SearchForEmployee()[pri:0, i...)</span>
-                <span class="method-start">10485 ms</span>
+                <span class="method-start">31143 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -358,11 +357,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">SearchForEmployee</span>
-                <span class="method-start">10489 ms</span>
+                <span class="method-start">31148 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotOnFailure([TestResult name=SearchForEmployee status=FAILURE method=EditEmployee.SearchForEmployee()[pri:0, ins...)</span>
-                <span class="method-start">13142 ms</span>
+                <span class="method-start">43223 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
