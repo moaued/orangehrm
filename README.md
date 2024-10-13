@@ -10,6 +10,8 @@ This project is a test automation framework built using Selenium WebDriver for a
 - Screenshot capture on test failure
 - Use rest assured for api testing
 
+
+📄 Reports:Allure Report
 ## Prerequisites
 List the necessary software or dependencies needed to run the project. This might include:
 - Java 8 or higher
