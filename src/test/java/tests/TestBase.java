@@ -27,13 +27,13 @@ public class TestBase {
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     }
 
-//    @AfterSuite
-//    public void stopDriver() {
-//        if (driver != null) {
-//        	
-//            driver.quit(); // Ensure driver quits
-//        }
-//    }
+    @AfterSuite
+    public void stopDriver() {
+        if (driver != null) {
+        	
+            driver.quit(); // Ensure driver quits
+        }
+    }
 
     // Take a screenshot when a test case fails
     @AfterMethod

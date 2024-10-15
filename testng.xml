@@ -7,11 +7,11 @@
     </listeners>
   <test thread-count="5" name="Test">
     <classes>
-	     
+	     <class name="api.SearchUserTest"/>
       <class name="tests.SearchUserTest"/>
     
       <class name="tests.EditEmployee"/>
-     
+      <class name="tests.JobDetails"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
